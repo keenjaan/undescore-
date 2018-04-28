@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Document</title>
+ <script src="undescore.js"></script>
+</head>
+<body>
+ <script>
+ var a = {x: 20}
+ a.y = a;
+ var b = {x: 20}
+ b.y = b;
+ var c = [a];
+ var d = [b];
+  console.log(_.isEqual(c, d));
+ </script>
+</body>
+</html>
